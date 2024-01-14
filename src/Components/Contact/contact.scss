@@ -1,0 +1,120 @@
+@import "../../app.scss";
+
+.contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(45deg, #843bce0f 5.71%, #843bce00 64.83%);
+  padding: 1rem;
+
+  .contact-wrapper {
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    @include tablet {
+      width: 100%;
+      padding: 10px;
+      flex-direction: column;
+    }
+    @include mobile {
+      gap: 0px;
+    }
+
+    .textContainer {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      .contact-mail {
+        &:hover {
+          color: orange;
+        }
+      }
+
+      @include tablet {
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: end;
+        margin-top: 70px;
+      }
+
+      h1 {
+        font-size: 100px;
+        line-height: 88px;
+
+        @include tablet {
+          font-size: 36px;
+        }
+      }
+
+      span {
+        font-weight: 300;
+      }
+    }
+
+    .formContainer {
+      flex: 1;
+      position: relative;
+
+      @include tablet {
+        padding: 50px;
+        width: 100%;
+      }
+
+      .phoneSvg {
+        stroke: orange;
+        // temp-hide-form
+        // position: absolute;
+        margin: auto;
+        z-index: -1;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        object-fit: cover;
+
+        @include tablet {
+          top: 0;
+          left: 0;
+          right: 0;
+          width: 80%;
+        }
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        input,
+        textarea {
+          padding: 20px;
+          background-color: transparent;
+          border: 1px solid white;
+          color: white;
+          border-radius: 5px;
+
+          @include tablet {
+            padding: 10px;
+          }
+        }
+
+        button {
+          padding: 20px;
+          border: none;
+          background-color: orange;
+          cursor: pointer;
+          font-weight: 500;
+          @include tablet {
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+}
