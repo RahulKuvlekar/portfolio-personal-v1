@@ -245,8 +245,8 @@ export const PROJECTS = [
     title: "Social Talks",
     img: Project2,
     desc: "Developed a social networking application using React.js, Redux, Vanilla CSS, and Firebase, facilitating the sharing of ideas, thoughts, and information within virtual communities. Empowered members to create and delete posts, upload, and share your posts, fostering an interactive and engaging online community.",
-    viewCode: "https://social-talks-rk.netlify.app",
-    liveApp: "",
+    viewCode: "https://github.com/RahulKuvlekar/social-talk",
+    liveApp: "https://social-talks-rk.netlify.app",
     tags: [
       "React",
       "Redux",
