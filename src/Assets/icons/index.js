@@ -32,6 +32,7 @@ import firestore from "./firestore.svg";
 import postman from "./postman.svg";
 import figma from "./figma.svg";
 import bootstrap from "./bootstrap.svg";
+import onlinesales from "./onlinesales.png";
 
 export {
   css,
@@ -68,4 +69,5 @@ export {
   postman,
   figma,
   bootstrap,
+  onlinesales
 };

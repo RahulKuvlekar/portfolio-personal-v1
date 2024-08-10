@@ -25,6 +25,7 @@ import {
   tailwindcss,
   typescript,
   univ,
+  onlinesales
 } from "../Assets/icons";
 
 export const skills = [
@@ -170,7 +171,7 @@ export const experiences = [
     company_name: "UNIV.AI",
     icon: univ,
     iconBg: "#accbe1",
-    date: "January 2022 - Present",
+    date: "January 2022 - February 2022",
     points: [
       {
         title: "Job Portal Development : ",
@@ -219,6 +220,23 @@ export const experiences = [
       {
         desc: "Collaborated closely with UI/UX designers to ensure a visually appealing and user-friendly interface, adhering to design guidelines and branding requirements.",
       },
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Onlinesales.ai",
+    icon: onlinesales,
+    iconBg: "#ffffff",
+    date: "February 2022 - July 2022",
+    points: [
+      {
+        title: "Order Management System : ",
+        desc: "Developed an system enabling clients to efficiently manage and track advertisements on their platform, utilizing React.js, Tailwind CSS, and Redux for a streamlined and responsive user experience.",
+      },
+      {
+        title: "Dashboard Widget: ",
+        desc: "Build a Widget empowering clients to independently troubleshoot and resolve campaign-related issues, significantly reducing the need for admin intervention and reducing OTRS tickets by 25%.",
+      }
     ],
   },
 ];
