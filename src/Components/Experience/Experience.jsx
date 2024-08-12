@@ -19,7 +19,7 @@ const Experience = () => {
                 <VerticalTimelineElement
                   key={`${idx}-experience-company`}
                   date={experience.date}
-                  position={idx / 2 === 0 ? "left" : "right"}
+                  position={idx % 2 === 0 ? "left" : "right"}
                   iconStyle={{
                     background: experience.iconBg,
                     boxShadow:
